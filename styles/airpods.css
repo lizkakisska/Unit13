@@ -1,0 +1,147 @@
+body {
+    background-color: black!important;
+}
+.navigation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-transform: none;
+    background: #3F3C3C;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-item{
+    float: left;
+    padding: 10px;
+}
+
+.navigation-link {
+    color: rgb(227 227 227);
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+    transition: .3s all cubic-bezier(0.4, 0, 1, 1);
+}
+
+.navigation-link:hover{
+    color: #ffffff;
+}
+.first {
+    font-family:Raleway,sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.big {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-size: 65px;
+    text-align: center;
+    background: linear-gradient(91.79deg, rgba(36, 231, 184, 0.92) -9.53%, rgba(249, 231, 69, 0.88) 90.08%, #F9E745 110.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.flip{
+    font-family: Rock Salt,Raleway,Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 75px;
+    text-align: center;
+    background: linear-gradient(91.79deg, rgba(36, 231, 184, 0.92) -9.53%, rgba(249, 231, 69, 0.88) 90.08%, #F9E745 110.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.from{
+    font-family:Raleway,sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color:#F1F1FF;
+}
+.img{
+    position: relative;
+    width: 100%;
+}
+.info_1{
+    font-family: Inter,sans-serif;
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: 0.11em;
+    color: #FFFFFF;
+}
+.info_2{
+    font-size: 25px;
+    letter-spacing: 0.11em;
+    color: #FFFFFF;
+}
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 300px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 567em) {
+    body {
+        margin-bottom: 700px;
+    }
+    .footer {
+        height: 700px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+    padding-top: 30px;
+    background-color: #292c2f;
+    color: #bbb;
+}
+
+footer a {
+    color: #999;
+    text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+
+
+
